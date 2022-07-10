@@ -1,4 +1,4 @@
 # ASE
 This code was used to identify parent of origin reads in F1 samples from crosses of two-spotted spider mite (Tetranychus urticae) inbred strains (briefly, it parses reads in .bam files to one parent of the other using single nucleotide polymorphism data). The code was used and described in a manuscript titled “Abundant trans-driven variation in detoxification gene expression in the extreme generalist herbivore Tetranychus urticae” that is being posted as a preprint and that will be under review. The code is provided for replication of findings only; there are no guarantees that it will run on data sets unrelated to the specific ones (and the associated formatting) used in this study. Please contact the author (Andre Kurlovs) if you have questions (a.kurlovs@gmail.com).
 
-The 3.3 version used in the study; the latest version is 3.4
+The 3.3 version was used in the study; the latest version is 3.4
