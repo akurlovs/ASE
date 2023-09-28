@@ -284,13 +284,14 @@ def process_bam(bam):
 
 ######################
 
-STUFF = coverage()
-CHROMS = STUFF[0]
-FINAL_COV = STUFF[1]
+if __name__ == '__main__':
+    STUFF = coverage()
+    CHROMS = STUFF[0]
+    FINAL_COV = STUFF[1]
 
-VCF_DICTS = get_vcftuple(CHROMS, FINAL_COV)
+    VCF_DICTS = get_vcftuple(CHROMS, FINAL_COV)
 
-for bammy in ARGDICT["bams"]:
-    process_bam(bammy)
+    for bammy in ARGDICT["bams"]:
+        process_bam(bammy)
 
 ##################
